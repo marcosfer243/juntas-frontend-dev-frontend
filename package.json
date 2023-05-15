@@ -1,0 +1,40 @@
+{
+  "name": "juntas-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^6.0.10",
+    "@mantine/dates": "^6.0.10",
+    "@mantine/form": "^6.0.10",
+    "@mantine/hooks": "^6.0.10",
+    "@mantine/next": "^6.0.10",
+    "@react-google-maps/api": "^2.18.1",
+    "@tabler/icons": "^2.17.0",
+    "@types/js-cookie": "^3.0.3",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.3",
+    "dayjs": "^1.11.7",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "js-cookie": "^3.0.5",
+    "next": "13.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "tabler-icons-react": "^1.56.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@googlemaps/typescript-guards": "^2.0.3",
+    "@types/google.maps": "^3.53.1"
+  }
+}
