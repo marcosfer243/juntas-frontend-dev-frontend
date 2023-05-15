@@ -94,7 +94,7 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-export default function home() {
+export default function Home() {
   const { classes, cx } = useStyles();
   const router = useRouter();
 

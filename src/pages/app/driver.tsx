@@ -242,7 +242,7 @@ type Props = {}
 const { publicRuntimeConfig } = getConfig();
 const { places } = publicRuntimeConfig;
 
-const driver = (props: Props) => {
+const Driver = (props: Props) => {
  const {classes} = useStyles()
 const router = useRouter();
 const [map, setMap] = React.useState<google.maps.Map | null>((null))
@@ -610,4 +610,4 @@ console.log(getTokenCookie())
   )
 }
 
-export default driver
+export default Driver

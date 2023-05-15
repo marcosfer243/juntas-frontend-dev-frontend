@@ -5,7 +5,7 @@ import LoginForm from '@/components/authComponents/loginForm';
 
 type Props = {}
 
-const login = (props: Props) => {
+const Login = (props: Props) => {
   return (
     <div>
       <h1 style={{textAlign:"center"}} >Login</h1>
@@ -14,4 +14,4 @@ const login = (props: Props) => {
   )
 }
 
-export default login;
+export default Login;
